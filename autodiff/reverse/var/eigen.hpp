@@ -30,12 +30,12 @@
 #pragma once
 
 // Eigen includes
-#include <Eigen/Core>
+#include "../../../Eigen/Core"
 
 // autodiff includes
-#include <autodiff/common/eigen.hpp>
-#include <autodiff/common/meta.hpp>
-#include <autodiff/reverse/var/var.hpp>
+#include "../../common/eigen.hpp"
+#include "../../common/meta.hpp"
+#include "../../reverse/var/var.hpp"
 
 //------------------------------------------------------------------------------
 // SUPPORT FOR EIGEN MATRICES AND VECTORS OF VAR

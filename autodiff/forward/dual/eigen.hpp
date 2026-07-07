@@ -30,12 +30,12 @@
 #pragma once
 
 // Eigen includes
-#include <Eigen/Core>
+#include "../../../Eigen/Core"
 
 // autodiff includes
-#include <autodiff/forward/dual.hpp>
-#include <autodiff/forward/utils/gradient.hpp>
-#include <autodiff/common/eigen.hpp>
+#include "../../forward/dual.hpp"
+#include "../../forward/utils/gradient.hpp"
+#include "../../common/eigen.hpp"
 
 //------------------------------------------------------------------------------
 // SUPPORT FOR EIGEN MATRICES AND VECTORS OF DUAL

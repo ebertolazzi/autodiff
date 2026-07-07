@@ -39,9 +39,9 @@
 #include <utility>
 
 // autodiff includes
-#include <autodiff/common/binomialcoefficient.hpp>
-#include <autodiff/common/numbertraits.hpp>
-#include <autodiff/common/meta.hpp>
+#include "../../common/binomialcoefficient.hpp"
+#include "../../common/numbertraits.hpp"
+#include "../../common/meta.hpp"
 
 namespace autodiff {
 namespace detail {

@@ -30,6 +30,6 @@
 #pragma once
 
 // autodiff includes
-#include <autodiff/forward/dual/dual.hpp>
-#include <autodiff/forward/utils/derivative.hpp>
-#include <autodiff/forward/utils/taylorseries.hpp>
+#include "../forward/dual/dual.hpp"
+#include "../forward/utils/derivative.hpp"
+#include "../forward/utils/taylorseries.hpp"

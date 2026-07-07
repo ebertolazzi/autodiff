@@ -30,10 +30,10 @@
 #pragma once
 
 // Eigen includes
-#include <Eigen/Core>
+#include "../../../Eigen/Core"
 
 // autodiff includes
-#include <autodiff/common/vectortraits.hpp>
+#include "../common/vectortraits.hpp"
 
 //=====================================================================================================================
 //

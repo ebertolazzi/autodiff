@@ -36,7 +36,7 @@
 
 #ifndef AUTODIFF_DEVICE_FUNC
 #ifdef AUTODIFF_EIGEN_FOUND
-    #include <Eigen/src/Core/util/Macros.h>
+    #include "../../../Eigen/src/Core/util/Macros.h"
     #define AUTODIFF_DEVICE_FUNC EIGEN_DEVICE_FUNC
 #else
     #define AUTODIFF_DEVICE_FUNC
